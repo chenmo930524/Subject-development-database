@@ -10,32 +10,32 @@ $(function () {
 
 	//scroll
 	$(".ul-top li").eq(0).click(function () {
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": 75
 		})
 	})
 	$(".ul-top li").eq(1).click(function () {
 		var h1 = $(".body1").height();
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": h1
 		})
 	})
 	$(".ul-top li").eq(2).click(function () {
 		var h1 = $(".body1").height();
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": h1
 		})
 	})
 	$(".ul-top li").eq(3).click(function () {
 		var h1 = $(".body1").height();
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": h1
 		})
 	})
 	$(".ul-top li").eq(4).click(function () {
 		var h1 = $(".body1").height();
 		var h2 = $(".body2").height();
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": h1 + h2
 		})
 	})
@@ -43,7 +43,7 @@ $(function () {
 		var h1 = $(".body1").height();
 		var h2 = $(".body2").height();
 		var h3 = $(".body3").height();
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": h1 + h2 + h3 + 205
 		})
 	})
@@ -52,12 +52,12 @@ $(function () {
 		var h2 = $(".body2").height();
 		var h3 = $(".body3").height();
 		var h4 = $(".body4").height();
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": h1 + h2 + h3 + 205 + h4
 		})
 	})
 	$(".body5b-test").click(function () {
-		$("body").stop(true).animate({
+		$("body,html").stop(true).animate({
 			"scrollTop": 0
 		})
 	})
